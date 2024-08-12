@@ -1,0 +1,19 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore composer vendor directory
+vendor/
+
+# Ignore build files
+build/
+dist/
+
+# Ignore IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode
