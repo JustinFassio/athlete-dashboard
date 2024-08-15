@@ -1,0 +1,27 @@
+.athlete-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.athlete-dashboard h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.trailhead-section {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.trailhead-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.trailhead-content {
+    font-size: 16px;
+    line-height: 1.6;
+}

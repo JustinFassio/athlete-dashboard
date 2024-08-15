@@ -1,0 +1,16 @@
+{
+    "name": "justinfassio/athlete-dashboard",
+    "description": "A WordPress plugin for managing athletes and their activities",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ]
+    }
+}
+

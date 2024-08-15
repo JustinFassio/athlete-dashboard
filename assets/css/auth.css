@@ -1,0 +1,186 @@
+.athlete-dashboard-register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.athlete-dashboard-register h2 {
+    text-align: center;
+    color: #333;
+}
+
+.athlete-dashboard-register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.athlete-dashboard-register label {
+    margin-top: 10px;
+    color: #555;
+}
+
+.athlete-dashboard-register input[type="text"],
+.athlete-dashboard-register input[type="email"],
+.athlete-dashboard-register input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.athlete-dashboard-register input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.athlete-dashboard-register input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.athlete-dashboard-register .error-message {
+    color: #d63638;
+    margin-bottom: 15px;
+}
+
+/* Divi-specific styling */
+.et_pb_section .athlete-dashboard-register {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.et_pb_section .athlete-dashboard-register h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.et_pb_section .athlete-dashboard-register input[type="text"],
+.et_pb_section .athlete-dashboard-register input[type="email"],
+.et_pb_section .athlete-dashboard-register input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.et_pb_section .athlete-dashboard-register input[type="submit"] {
+    background-color: #2ea3f2;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.et_pb_section .athlete-dashboard-register input[type="submit"]:hover {
+    background-color: #1e8ae0;
+}
+
+.et_pb_section .athlete-dashboard-register .error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* login */
+
+.athlete-dashboard-login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.athlete-dashboard-login h2 {
+    text-align: center;
+    color: #333;
+}
+
+.athlete-dashboard-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.athlete-dashboard-login label {
+    margin-top: 10px;
+    color: #555;
+}
+
+.athlete-dashboard-login input[type="text"],
+.athlete-dashboard-login input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.athlete-dashboard-login input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.athlete-dashboard-login input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.athlete-dashboard-login input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.athlete-dashboard-login .error-messages {
+    color: #d63638;
+    margin-bottom: 15px;
+}
+
+.athlete-dashboard-login .error-message {
+    margin-bottom: 5px;
+}
+
+/* Shared styles for login and registration */
+.athlete-dashboard-login input.error,
+.athlete-dashboard-register input.error {
+    border-color: #d63638;
+}
+
+.athlete-dashboard-login .error-message,
+.athlete-dashboard-register .error-message {
+    color: #d63638;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* GDPR consent styling */
+.athlete-dashboard-login label[for="gdpr_consent"],
+.athlete-dashboard-register label[for="gdpr_consent"] {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+}

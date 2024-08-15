@@ -1,0 +1,58 @@
+.athlete-dashboard-section.trailhead {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trailhead h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.trailhead-summary,
+.trailhead-quick-actions,
+.trailhead-upcoming {
+    margin-bottom: 30px;
+}
+
+.trailhead h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.athlete-recent-progress,
+.athlete-upcoming-events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.progress-item,
+.event-item {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1 1 calc(33.333% - 10px);
+}
+
+.trailhead-action-button {
+    display: inline-block;
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.trailhead-action-button:hover {
+    background-color: #005177;
+}
+
+@media (max-width: 600px) {
+    .progress-item,
+    .event-item {
+        flex: 1 1 100%;
+    }
+}

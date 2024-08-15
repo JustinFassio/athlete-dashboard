@@ -1,0 +1,192 @@
+/* Athlete Dashboard Admin Styles */
+
+/* General Layout */
+.athlete-dashboard-admin {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #23282d;
+}
+
+.card-value {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0073aa;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #72777c;
+}
+
+/* Statistics Box (Legacy) */
+.athlete-dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.athlete-dashboard-stats .stat-box {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.stat-icon {
+    background: #f0f0f0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.stat-icon .dashicons {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.stat-content {
+    flex-grow: 1;
+}
+
+.stat-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #555555;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #333333;
+}
+
+.stat-description {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}
+
+/* Chart Section */
+.dashboard-charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.dashboard-graph {
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Recent Activities Section */
+.dashboard-recent-activities {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dashboard-recent-activities h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.dashboard-recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-recent-activities li {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 0;
+}
+
+.dashboard-recent-activities li:last-child {
+    border-bottom: none;
+}
+
+/* Legacy Recent Activities Styles */
+.athlete-dashboard-recent-activities {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.athlete-dashboard-recent-activities h3 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.athlete-dashboard-recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.athlete-dashboard-recent-activities li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .dashboard-charts {
+        flex-direction: column;
+    }
+
+    .dashboard-graph {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .athlete-dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+}
