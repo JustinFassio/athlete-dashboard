@@ -1,19 +1,18 @@
-# Ignore operating system files
+# Operating system files
 .DS_Store
 Thumbs.db
 
-# Ignore node modules
-node_modules/
+# Dependencies
+/node_modules/
+/vendor/
+composer.lock
 
-# Ignore composer vendor directory
-vendor/
+# Build files
+/build/
+/dist/
 
-# Ignore build files
-build/
-dist/
-
-# Ignore IDE specific files
+# IDE specific files
 .idea/
 *.sublime-project
 *.sublime-workspace
-*.vscode
+.vscode/
