@@ -27,7 +27,6 @@ define('AD_API_URL', 'https://your-ai-web-app-api-url.com/get-trailhead-content'
 define('ATHLETE_DASHBOARD_VERSION', AD_VERSION);
 
 // Include necessary files
-require_once __DIR__ . '/vendor/autoload.php';
 require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard.php';
 require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard-roles.php';
 require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard-auth.php';
@@ -38,6 +37,7 @@ require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard-admin-page.php';
 require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard-user-profile.php';
 require_once AD_PLUGIN_DIR . 'includes/class-athlete-dashboard-api.php';
 require_once AD_PLUGIN_DIR . 'functions/enqueue-scripts.php';
+require_once AD_PLUGIN_DIR . 'functions/shortcodes.php';
 
 
 /**
