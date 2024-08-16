@@ -60,7 +60,7 @@ class Athlete_Dashboard_User_Profile {
     }
 
     public function enqueue_profile_scripts() {
-        if (is_user_logged_in() && is_account_page()) {
+        if (is_user_logged_in() && is_page('athlete-dashboard')) {
             wp_enqueue_script(
                 'athlete-dashboard-profile',
                 plugins_url('assets/js/profile.js', dirname(__FILE__)),
@@ -68,7 +68,7 @@ class Athlete_Dashboard_User_Profile {
                 ATHLETE_DASHBOARD_VERSION,
                 true
             );
-
+    
             wp_localize_script('athlete-dashboard-profile', 'athleteDashboardProfile', array(
                 'ajaxurl' => admin_url('admin-ajax.php'),
                 'nonce' => wp_create_nonce('athlete_dashboard_profile_nonce')
